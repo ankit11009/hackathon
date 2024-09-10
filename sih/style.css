@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#mainbox {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(88, 136, 136);
+}
+
+#navbar {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar h1 {
+    font-family: pacifico;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#rightnav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+search {
+    /* background-color: rgb(22, 21, 19); */
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(209, 149, 149);
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: o 10px 25px rgba(red, green, blue, alpha);
+}
+
+#search:hover input {
+    width: 200px;
+
+}
+
+#search input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    /* background-color: bisque; */
+
+}
+
+#search a .ri {
+    font-size: 18px;
+}
+
+#search a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 40px;
+    /* background-color: rgb(223, 223, 171); */
+}
+
+#login h3 {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#textbox {
+    height: 650px;
+    width: 100%;
+    /* background-color: rgb(48, 60, 60); */
+    background-image: url(https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149138432.jpg);
+    background-size: cover;
+
+    #toptext {
+        /* margin: 10px; */
+        /* background-color: bisque; */
+        padding: 20px 40%;
+    }
+
+    #toptext h3 {
+        color: rgb(239, 180, 180);
+        font-family: pacifico;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    #middletext {
+        /* background-color: blue; */
+        padding: 10px 32%;
+        width: 35%;
+    }
+
+    .learn {
+        width: 30%;
+        padding: 10px 30%;
+    }
+
+    #middletext h1 {
+        font-family: Anton;
+        color: white;
+        font-weight: 400;
+        font-size: 60px;
+    }
+
+    #bottomtext {
+        /* background-color: blueviolet; */
+        width: 36%;
+        padding: 10px 32%;
+    }
+
+    #bottomtext h3 {
+        color: white;
+    }
+
+    #explore {
+        background-color: rgb(155, 244, 66);
+        height: 60px;
+        width: 300px;
+        margin: 10% 40%;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    #explore a {
+        text-decoration: none;
+        font-size: 30px;
+        padding: 16px;
+        color: black;
+    }
+
+    #offering {
+        width: 100%;
+    }
+}
+
+#offer {
+    /* background-color: #260505; */
+    height: 300px;
+    width: 100%;
+
+}
+
+#offer h1 {
+    font-size: 150px;
+    padding: 60px 300px;
+    font-family: Anton;
+    color: rgba(128, 128, 128, 0.552);
+    letter-spacing: 10px;
+    /* border: 2px solid black; */
+}
+
+#bootcamps {
+    height: 170vh;
+    /* background: #473030; */
+    /* display: flex; */
+
+}
+
+#jobbootcamp {
+    height: 700px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex; */
+
+}
+
+#jobtext {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding: 0px 20%;
+    font-size: 20px;
+}
+
+#jobtext h3 {
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 180px;
+    padding: 10px;
+}
+
+#offerbox {
+    height: 74vh;
+    width: 80%;
+    display: flex;
+    margin: 0px 150px;
+    justify-content: space-around;
+}
+
+#webdev {
+    background-color: azure;
+    height: 60%;
+    width: 40%;
+    background-image: url(https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg);
+    background-size: cover;
+    border-radius: 20px;
+
+
+
+
+}
+
+/* #webdev .text {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    bottom: 10px;
+    margin-top: 300px;
+
+} */
+
+#data {
+    background-color: chartreuse;
+    height: 60%;
+    width: 40%;
+    background-image: url(https://codup.co/wp-content/uploads/2021/12/data-analysis.webp);
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50px; */
+    border-radius: 20px;
+}
+
+/* #data .text2 {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    bottom: 10px;
+    margin-top: 300px;
+} */
+
+#studenttext {
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding:0px 20%;
+    font-size: 20px;
+}
+
+
+#studenttext h3 {
+
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 250px;
+    padding: 10px;
+
+}
+#ltextbox{
+    height: 50%;
+    width: 70%;
+    padding: 110px 100px;
+    font-size: 30px;
+    
+}
+#ltextbox h3{
+    padding: 20px 0px;
+    font-size: 17px;
+    /* font-weight: 200; */
+}
+#rtextbox{
+    height: 50%;
+    width: 30%;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+#rtextbox h2{
+    margin-right: 20px;
+    font-size: 50px;
+}
+#offerbox2{
+    height: 40%;
+    width: 80%;
+    background-color: rgba(236, 230, 230, 0.884);
+    margin: 10px 180px;
+    display: flex;
+    border-radius: 20px;
+}
+#section{
+    width: 100%;
+    height: 400vh;
+    background-color: rgb(19, 17, 17);
+}
+#why{
+    margin: 0px 90px;
+    height: 300px;
+    /* background-color: beige; */
+    font-size: 100px;
+}
+#why h1{
+    padding: 50px 250px;
+}
+#whyus{
+    /* background-color: rgb(17, 16, 18); */
+    height: 300px;
+    margin: 0px 90px;
+    width: 88%;
+    font-family: poppins;
+    /* display: flex;
+    justify-content: space-around; */
+    
+}
+#whyus h3{
+    
+    padding: 10px 70px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  
+    
+}
+/* #whyus h3:hover{
+    background: #4f4c4cc5;
+    font-size: 2rem;
+} */
+#upperbox{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(129, 129, 31); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1{
+    height: 45%;
+    width: 30%;
+    /* background-color: rgb(62, 59, 59); */
+    border: 2px solid rgba(187, 248, 106, 0.808);
+    border-radius: 20px;
+}
+#box2{
+    height: 45%;
+    width: 30%;
+    /* background-color: red; */
+    border: 2px solid rgba(187, 248, 106, 0.808);
+    border-radius: 20px;
+}
+#lowerbox{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(56, 56, 40); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box3{
+    height: 45%;
+    width: 30%;
+    /* background-color: rgb(13, 0, 0); */
+    border: 2px solid rgba(187, 248, 106, 0.808);
+    border-radius: 20px;
+}
+#box4{
+    height: 45%;
+    width: 30%;
+    /* background-color: rgb(236, 229, 229); */
+    border: 2px solid rgba(187, 248, 106, 0.808);
+    border-radius: 20px;
+}
+#advantages{
+    height: 700px;
+    width: 100%;
+    /* background-color: blue; */
+}
+#advbox{
+    height: 700px;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 100px;
+    /* padding: 0px 90px; */
+    /* background-color: chartreuse; */
+    border: 2px solid  rgba(187, 248, 106, 0.808);
+    border-radius: 30px;
+}
+#advbox .adv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    
+}
+#tick{
+    margin-right:40px;
+    letter-spacing: 50px;
+    font-size: 30px;
+}
+#advbox h3{
+    padding: 0px 50px;
+    
+}
+#advbox1{
+    /* border-top: 30px; */
+    height: 150px;
+    width: 100%;
+    /* background: #000; */
+    /* background-color: blac; */
+}
+#advbox2{
+    /* border-top: 30px; */
+    height: 100px;
+    width: 100%;
+    background: #533c3c67;
+    
+}
+#advbox3{
+    /* border-top: 30px; */
+    height: 100px;
+    width: 100%;
+    /* background: #d51111c6; */
+    
+
+}
+#advbox4{
+    /* border-top: 30px; */
+    height: 100px;
+    width: 100%;
+    background: #533c3c67;
+    
+
+}
+#advbox5{
+    /* border-top: 30px; */
+    height: 100px;
+    width: 100%;
+    /* background: #ab9d9dc6; */
+    
+
+}
+#advbox6{
+    /* border-top: 30px; */
+    height: 100px;
+    width: 100%;
+    background: #533c3c67;
+    
+
+}
+
+
+
